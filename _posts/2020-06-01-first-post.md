@@ -1,13 +1,10 @@
 ---
-title:  "github.io 블로그 시작하기"
+title:  "Starting github.io Blog"
 excerpt: "github.io 블로그 테스트."
-
-categories:
-  - Blog
+categories: Blog
+name: Junhank
 ---
 
-GitHub Blog 서비스인 github.io 블로그 시작하기로 했다.
-GitHub Blog 서비스의 이름은 Pages이다.
+This is my GitHub Blog - github.io.
 
-YFM에서 정의한 제목을 이중 괄호 구문으로 본문에 추가할 수 있다.
-이 글의 제목은 {{ page.title }}이다.
+The title is {{ page.title }} and my name is {{page.name}}.
